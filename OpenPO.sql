@@ -1,7 +1,5 @@
 /* This program is to open a new purchase order */
 
-spool e:openpo.txt
-
 set heading off
 set feedback off
 set echo off
@@ -89,8 +87,4 @@ update counter set maxnum=maxnum+1;
 commit;
 
 clear columns
-
-spool off
-
-
 
